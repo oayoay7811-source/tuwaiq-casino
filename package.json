@@ -1,0 +1,33 @@
+{
+  "name": "tuwaiq-casino-game",
+  "version": "1.0.0",
+  "description": "Premium Casino Game Platform with 11 exciting games including Dice, Crash, Plinko, Slots, Mines, Wheel, Limbo, Tower, Coin Flip, Hi-Lo, and Keno",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "casino",
+    "games",
+    "gambling",
+    "html5",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "compression": "^1.7.4",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
+
